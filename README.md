@@ -1,4 +1,5 @@
-![image](https://github.com/MuniKiranCh/SportsTracker/assets/125656756/34ebcd08-ff2c-45aa-b390-78a41ba3f9ed)# SportsTracker
+# Sports Tracker
+![image](https://github.com/MuniKiranCh/SportsTracker/assets/125656756/34ebcd08-ff2c-45aa-b390-78a41ba3f9ed)
 
 # objective
 Creating an interactive sport application where users can see their NFL teams,standings and shedules(when clicked on the respective team).
