@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2023 NFL Standings</title>
+
+    <!--Import Google Icon Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Import Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style4.css" />
+  </head>
+
+  <body>
+    <div class="cap">
+      <h3>AMERICAN FOOTBALL CONFERENCE</h3>
+    </div>
+    <div>
+      <table class="tables">
+        <thead>
+          <tr>
+            <th>AFC TEAM</th>
+            <th>W</th>
+            <th>L</th>
+            <th>T</th>
+            <th>RANK</th>
+            <th>PCT</th>
+            <th>PF</th>
+            <th>PA</th>
+            <th>Net Pts</th>
+            <th>Pct</th>
+            <th>Conf</th>
+            <th>Pct</th>
+            <th>Non-Conf</th>
+            <th>Strk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kansas City Chiefs</td>
+            <td>6</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0.857</td>
+            <td>178</td>
+            <td>105</td>
+            <td>73</td>
+            <td>1.000</td>
+            <td>4-0-0</td>
+            <td>1.000</td>
+            <td>2-1-0</td>
+            <td>6W</td>
+          </tr>
+          <tr>
+            <td>Miami Dolphins</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0.714</td>
+            <td>240</td>
+            <td>187</td>
+            <td>53</td>
+            <td>0.500</td>
+            <td>3-1-0</td>
+            <td>0.750</td>
+            <td>2-1-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>Baltimore Ravens</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0.714</td>
+            <td>240</td>
+            <td>187</td>
+            <td>53</td>
+            <td>0.667</td>
+            <td>4-2-0</td>
+            <td>0.667</td>
+            <td>1-0-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Jacksonville Jaguars</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0.714</td>
+            <td>173</td>
+            <td>146</td>
+            <td>27</td>
+            <td>0.667</td>
+            <td>3-2-0</td>
+            <td>0.600</td>
+            <td>2-0-0</td>
+            <td>4W</td>
+          </tr>
+          <tr>
+            <td>Pittsburgh Steelers</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>5</td>
+            <td>0.667</td>
+            <td>103</td>
+            <td>127</td>
+            <td>-24</td>
+            <td>1.000</td>
+            <td>3-1-0</td>
+            <td>0.750</td>
+            <td>1-1-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Cleveland Browns</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+            <td>0.667</td>
+            <td>134</td>
+            <td>115</td>
+            <td>19</td>
+            <td>0.333</td>
+            <td>3-2-0</td>
+            <td>0.600</td>
+            <td>1-0-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Buffalo Bills</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td>7</td>
+            <td>0.571</td>
+            <td>198</td>
+            <td>118</td>
+            <td>80</td>
+            <td>0.333</td>
+            <td>2-3-0</td>
+            <td>0.400</td>
+            <td>2-0-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>Houston Texans</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>8</td>
+            <td>0.500</td>
+            <td>135</td>
+            <td>113</td>
+            <td>22</td>
+            <td>0.500</td>
+            <td>2-2-0</td>
+            <td>0.500</td>
+            <td>1-1-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>New York Jets</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>9</td>
+            <td>0.500</td>
+            <td>113</td>
+            <td>119</td>
+            <td>-6</td>
+            <td>0.500</td>
+            <td>2-2-0</td>
+            <td>1.00</td>
+            <td>1-1-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Cincinnati Bengals</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>10</td>
+            <td>0.500</td>
+            <td>100</td>
+            <td>127</td>
+            <td>-27</td>
+            <td>0.000</td>
+            <td>0-3-0</td>
+            <td>0.000</td>
+            <td>3-0-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Indianapolis Colts</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>11</td>
+            <td>0.429</td>
+            <td>178</td>
+            <td>191</td>
+            <td>-13</td>
+            <td>0.500</td>
+            <td>3-3-0</td>
+            <td>0.500</td>
+            <td>0-1-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>Las Vegas Raiders</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>12</td>
+            <td>0.429</td>
+            <td>112</td>
+            <td>161</td>
+            <td>-49</td>
+            <td>0.500</td>
+            <td>2-3-0</td>
+            <td>0.400</td>
+            <td>1-1-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>Tennessee Titans</td>
+            <td>2</td>
+            <td>4</td>
+            <td>0</td>
+            <td>13</td>
+            <td>0.333</td>
+            <td>104</td>
+            <td>117</td>
+            <td>-13</td>
+            <td>0.000</td>
+            <td>2-3-0</td>
+            <td>0.400</td>
+            <td>0-1-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>Los Angeles Chargers</td>
+            <td>2</td>
+            <td>4</td>
+            <td>0</td>
+            <td>14</td>
+            <td>0.333</td>
+            <td>144</td>
+            <td>155</td>
+            <td>-11</td>
+            <td>0.500</td>
+            <td>1-3-0</td>
+            <td>0.250</td>
+            <td>1-1-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>New England Patriots</td>
+            <td>2</td>
+            <td>5</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.286</td>
+            <td>101</td>
+            <td>177</td>
+            <td>-76</td>
+            <td>0.667</td>
+            <td>2-2-0</td>
+            <td>0.500</td>
+            <td>0-3-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Denver Broncos</td>
+            <td>2</td>
+            <td>5</td>
+            <td>0</td>
+            <td>16</td>
+            <td>0.286</td>
+            <td>148</td>
+            <td>217</td>
+            <td>-69</td>
+            <td>0.000</td>
+            <td>0-4-0</td>
+            <td>0.000</td>
+            <td>2-1-0</td>
+            <td>1W</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <br />
+    <div class="cap">
+      <h3>NATIONAL FOOTBALL CONFERENCE</h3>
+    </div>
+    <div>
+      <table class="tables">
+        <thead>
+          <tr>
+            <th>NFC TEAM</th>
+            <th>W</th>
+            <th>L</th>
+            <th>T</th>
+            <th>RANK</th>
+            <th>PCT</th>
+            <th>PF</th>
+            <th>PA</th>
+            <th>Net Pts</th>
+            <th>Pct</th>
+            <th>Conf</th>
+            <th>Pct</th>
+            <th>Non-Conf</th>
+            <th>Strk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Philadelphia Eagles</td>
+            <td>6</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0.857</td>
+            <td>186</td>
+            <td>141</td>
+            <td>45</td>
+            <td>1.000</td>
+            <td>4-0-0</td>
+            <td>1.000</td>
+            <td>2-1-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Detroit Lions</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0.714</td>
+            <td>174</td>
+            <td>151</td>
+            <td>23</td>
+            <td>1.000</td>
+            <td>4-1-0</td>
+            <td>0.800</td>
+            <td>1-1-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>San Francisco 49ers</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0.714</td>
+            <td>201</td>
+            <td>109</td>
+            <td>92</td>
+            <td>1.000</td>
+            <td>4-1-0</td>
+            <td>0.800</td>
+            <td>1-1-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>Atlanta Falcons</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0.571</td>
+            <td>115</td>
+            <td>133</td>
+            <td>-18</td>
+            <td>1.000</td>
+            <td>3-2-0</td>
+            <td>0.600</td>
+            <td>1-1-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Seattle Seahawks</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>5</td>
+            <td>0.667</td>
+            <td>144</td>
+            <td>118</td>
+            <td>26</td>
+            <td>0.500</td>
+            <td>4-1-0</td>
+            <td>0.800</td>
+            <td>0-1-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Dallas Cowboys</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+            <td>0.667</td>
+            <td>154</td>
+            <td>100</td>
+            <td>54</td>
+            <td>1.000</td>
+            <td>1-2-0</td>
+            <td>0.333</td>
+            <td>3-0-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Tampa Bay Buccaneers</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>7</td>
+            <td>0.500</td>
+            <td>103</td>
+            <td>104</td>
+            <td>-1</td>
+            <td>0.500</td>
+            <td>3-3-0</td>
+            <td>0.500</td>
+            <td>0-0-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>Minnesota Vikings</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>8</td>
+            <td>0.429</td>
+            <td>151</td>
+            <td>152</td>
+            <td>-1</td>
+            <td>1.000</td>
+            <td>3-2-0</td>
+            <td>0.600</td>
+            <td>0-2-0</td>
+            <td>2W</td>
+          </tr>
+          <tr>
+            <td>Los Angeles Rams</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>9</td>
+            <td>0.429</td>
+            <td>155</td>
+            <td>141</td>
+            <td>14</td>
+            <td>0.667</td>
+            <td>2-2-0</td>
+            <td>0.500</td>
+            <td>1-2-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>Washington Commanders</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>10</td>
+            <td>0.429</td>
+            <td>140</td>
+            <td>190</td>
+            <td>-50</td>
+            <td>0.000</td>
+            <td>2-3-0</td>
+            <td>0.400</td>
+            <td>1-1-0</td>
+            <td>1L</td>
+          </tr>
+          <tr>
+            <td>New Orleans Saints</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>11</td>
+            <td>0.429</td>
+            <td>133</td>
+            <td>127</td>
+            <td>6</td>
+            <td>0.500</td>
+            <td>1-2-0</td>
+            <td>0.333</td>
+            <td>2-2-0</td>
+            <td>2L</td>
+          </tr>
+          <tr>
+            <td>Green Bay Packers</td>
+            <td>2</td>
+            <td>4</td>
+            <td>0</td>
+            <td>12</td>
+            <td>0.333</td>
+            <td>130</td>
+            <td>132</td>
+            <td>-2</td>
+            <td>0.500</td>
+            <td>2-2-0</td>
+            <td>0.500</td>
+            <td>0-2-0</td>
+            <td>3L</td>
+          </tr>
+          <tr>
+            <td>New York Giants</td>
+            <td>2</td>
+            <td>5</td>
+            <td>0</td>
+            <td>13</td>
+            <td>0.286</td>
+            <td>85</td>
+            <td>174</td>
+            <td>-89</td>
+            <td>0.500</td>
+            <td>2-3-0</td>
+            <td>0.400</td>
+            <td>0-2-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Chicago Bears</td>
+            <td>2</td>
+            <td>5</td>
+            <td>0</td>
+            <td>14</td>
+            <td>0.286</td>
+            <td>158</td>
+            <td>188</td>
+            <td>-30</td>
+            <td>0.000</td>
+            <td>1-3-0</td>
+            <td>0.250</td>
+            <td>1-2-0</td>
+            <td>1W</td>
+          </tr>
+          <tr>
+            <td>Arizona Cardinals</td>
+            <td>1</td>
+            <td>6</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.143</td>
+            <td>127</td>
+            <td>182</td>
+            <td>-55</td>
+            <td>0.000</td>
+            <td>1-5-0</td>
+            <td>0.167</td>
+            <td>0-1-0</td>
+            <td>4L</td>
+          </tr>
+          <tr>
+            <td>Carolina Panthers</td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+            <td>16</td>
+            <td>0.000</td>
+            <td>112</td>
+            <td>186</td>
+            <td>-74</td>
+            <td>0.000</td>
+            <td>0-5-0</td>
+            <td>0.000</td>
+            <td>0-1-0</td>
+            <td>6L</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+
+    <div class="data">
+      <div><h5>LEGEND</h5></div>
+      <hr />
+      <div class="abc">W : Wins</div>
+      <div class="abc">L : Losses</div>
+      <div class="abc">T : Ties</div>
+      <div class="abc">PCT : Winning Percentage</div>
+      <div class="abc">CONF : Conference Record</div>
+      <div class="abc">PF : Total Points For</div>
+      <div class="abc">PA : Total Points Against</div>
+      <div class="abc">NET PTS : Net Points</div>
+      <div class="abc">STRK : Streak</div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
